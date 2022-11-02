@@ -17,52 +17,19 @@
 
 <body id="top">
 
-  <!-- 
-    - #HEADER
-  -->
+  <nav>
+    <div id="socials" class="socials">
+      <div class="social-data">
+        <ul class="social-list">
 
-  <header class="header" data-header>
+          <li>
+            <a href="" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+          <span style="font-size: 12px;color: #3D8361; font-weight: 500;">For Further Inquires : <br>+91 +91-89-17-89-17-89</span>
 
-    <div class="overlay" data-overlay></div>
-
-    <div class="header-top">
-      <div class="container">
-
-        <a href="tel:+918917891789" class="helpline-box">
-
-          <div class="icon-box">
-            <ion-icon name="call-outline"></ion-icon>
-          </div>
-
-          <div class="wrapper">
-            <p class="helpline-title">For Further Inquires :</p>
-
-            <p class="helpline-number">+91-89-17-89-17-89</p>
-          </div>
-
-        </a>
-
-        <a href="#" class="logo">
-          <img src="./assets/images/logo-tabigokoro.png" alt="Tourly logo">
-        </a>
-
-        <div class="header-btn-group">
-
-          <button class="search-btn" aria-label="Search">
-            <ion-icon name="search"></ion-icon>
-          </button>
-
-          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="header-bottom">
-      <div class="container">
+      </ul>
 
         <ul class="social-list">
 
@@ -84,54 +51,115 @@
             </a>
           </li>
 
-        </ul>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="#" class="logo">
-              <img src="./assets/images/logo-tabigokoro.png" alt="Tourly logo">
-            </a>
-
-            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <ul class="navbar-list">
-
-            <li>
-              <a href="#home" class="navbar-link" data-nav-link>home</a>
-            </li>
-
-            <li>
-              <a href="destinations.html" class="navbar-link" data-nav-link>destination</a>
-            </li>
-            
-            <li>
-              <a href="#" class="navbar-link" data-nav-link>plan your trip</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
-            </li>
-
-          </ul>
-
-        </nav>
-
-        <button class="btn btn-primary">Book Now</button>
-
-      </div>
+      </ul>
     </div>
-
-  </header>
-
-
-
-
+    </div>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html" >
+        <img src="./assets/images/logo-tabigokoro.png" alt="Tourly logo" style="width: 180px;">
+      </a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><ion-icon name="close-outline" style="color: #1C6758;"></ion-icon></label>
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="destinations.html" class="desktop-item">DESTINATION</a>
+            <input type="checkbox" id="showDestinations">
+            <label for="showDestinations" class="mobile-item">DESTINATION</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="assets/images/taj-mahal-4.jpeg" alt="">
+                </div>
+                <div class="row">
+                  <header>Destinations</header>
+                  <ul class="mega-links">
+                    <li><a href="akshardham.html">Akshardham</a></li>
+                    <li><a href="banglasahib.html">Bangla Sahib</a></li>
+                    <li><a href="damdama-lake.html">Damdama Lake</a></li>
+                    <li><a href="golden-temp.html">Golden Temple</a></li>
+                    <li><a href="vrindavan.html">Vrindavan</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header style="color: #EEF2E6;">.</header>
+                  <ul class="mega-links">
+                    <li><a href="hauz-khas.html">Hauz Khas</a></li>
+                    <li><a href="india-gate.html">India Gate</a></li>
+                    <li><a href="lotus-temp.html">Lotus Temple</a></li>
+                    <li><a href="neemrana.html">Neemrana</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header style="color: #EEF2E6;">.</header>
+                  <ul class="mega-links">
+                    <li><a href="qutub-minar.html">Qutub Minar</a></li>
+                    <li><a href="rail-museum.html">Rail Museum</a></li>
+                    <li><a href="red-fort.html">Red Fort</a></li>
+                    <li><a href="taj-mahal.html">Taj Mahal</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- dropdown code -->
+          <!-- <li>
+            <a href="#" class="desktop-item">Dropdown Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li> -->
+          <li>
+            <a href="todo.html" class="desktop-item">THINGS TO DO</a>
+            <input type="checkbox" id="showThings">
+            <label for="showThings" class="mobile-item">THINGS TO DO</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="assets/images/cycling.jpg" alt="">
+                </div>
+                <div class="row">
+                  <header>Things to do</header>
+                  <ul class="mega-links">
+                    <li><a href="adventure.html">Adventure</a></li>
+                    <li><a href="Tourist-places.html">Tourist Places</a></li>
+                    <li><a href="Museums.html">Museums</a></li>
+                    <li><a href="holistic-places.html">Holistic Places</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header style="color: #EEF2E6;">.</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header style="color: #EEF2E6;">.</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                    <li><a href="#">Things</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">CONTACT US</a></li>
+          <li><button class="book-now">Book Now</button></li>
+        </ul>
+      <label for="menu-btn" class="btn" style="font-size: 2rem;cursor: pointer"><ion-icon name="reorder-three-outline" style="color: #1C6758;"></ion-icon ></label>
+    </div>
+  </nav>
 
   <main>
     <article>
@@ -157,52 +185,7 @@
 
         </div>
       </section>
-
-      <!-- 
-        - #TOUR SEARCH
-      -->
-
-      <section class="tour-search">
-        <div class="container">
-
-          <form action="" class="tour-search-form">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Date From*</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Date To*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
-        </div>
-      </section>
-
-
-
-
-
+      
       <!-- 
         - #POPULAR
       -->
@@ -223,11 +206,10 @@
             <li>
               <div class="popular-club">
                 <div class="popular-card">
-  
                   <figure class="card-img">
-                    <img src="./assets/images/tajmahal.jpg" alt="San miguel, italy" loading="lazy">
+                  <img  src="./assets/images/tajmahal.jpg" alt="San miguel, italy" loading="lazy">
                   </figure>
-  
+
                   <div class="card-content">
   
                     <div class="card-rating">
@@ -246,29 +228,61 @@
                       <a href="#">Taj Mahal</a>
                     </h3>
   
-                    <!-- <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                    </p> -->
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti nemo minima amet eius impedit ipsa magni soluta quam temporibus.
+                    </p>
   
                   </div>
   
                 </div>
                 <div class="popular-img">
                   <div class="two-img">
-                      <figure class="small-img">
-                        <img src="./assets/images/destinations/akshardham.jpeg" alt="San miguel, italy" loading="lazy">
-                      </figure>
-                      <figure class="small-img">
-                        <img src="./assets/images/destinations/bangla sahib.jpeg" alt="San miguel, italy" loading="lazy">
-                      </figure>
+                      <div class="one-img">
+                        <figure class="small-img">
+                          <img src="./assets/images/destinations/akshardham.jpeg" alt="San miguel, italy" loading="lazy">
+                        </figure>
+                        <div class="place-name">
+                          <h3 class="h3 card-title">
+                            Akshardham
+                          </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                        </div>
+                      </div>
+                      <div class="one-img">
+                        <figure class="small-img">
+                          <img src="./assets/images/destinations/bangla sahib.jpeg" alt="San miguel, italy" loading="lazy">
+                        </figure>
+                        <div class="place-name">
+                          <h3 class="h3 card-title">
+                            Bangla Sahib
+                          </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                        </div>
+                      </div>
                   </div>
                   <div class="two-img">
-                      <figure class="small-img">
-                        <img src="./assets/images/destinations/chhatarpur.jpeg" alt="San miguel, italy" loading="lazy">
-                      </figure>
-                      <figure class="small-img">
-                        <img src="./assets/images/destinations/damdama lake.jpeg" alt="San miguel, italy" loading="lazy">
-                      </figure>
+                      <div class="one-img">
+                        <figure class="small-img">
+                          <img src="./assets/images/destinations/chhatarpur.jpeg" alt="San miguel, italy" loading="lazy">
+                        </figure>
+                        <div class="place-name">
+                          <h3 class="h3 card-title">
+                            chhatarpur farms
+                          </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                        </div>
+                      </div>
+                      <div class="one-img">
+                        <figure class="small-img">
+                          <img src="./assets/images/destinations/damdama lake.jpeg" alt="San miguel, italy" loading="lazy">
+                        </figure>
+                        <div class="place-name">
+                          <h3 class="h3 card-title">
+                            damdama lake
+                          </h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -278,24 +292,56 @@
               <div class="popular-club">
                 <div class="popular-img">
                   <div class="two-img">
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/golden temple.webp" alt="San miguel, italy" loading="lazy">
-                    </figure>
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/hauz khas village.jpeg" alt="San miguel, italy" loading="lazy">
-                    </figure>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/golden temple.webp" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          golden temple
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/hauz khas village.jpeg" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          hauz khas village
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
                   </div>
                   <div class="two-img">
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/india gate.webp" alt="San miguel, italy" loading="lazy">
-                    </figure>
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/lotus temple.jpeg" alt="San miguel, italy" loading="lazy">
-                    </figure>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/india gate.webp" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          india gate
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/lotus temple.jpeg" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          lotus temple
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="popular-card">
-  
+
                   <figure class="card-img">
                     <img src="./assets/images/qutubminar.jpg" alt="Burj khalifa, dubai" loading="lazy">
                   </figure>
@@ -318,9 +364,9 @@
                       <a href="#">Qutub Minar</a>
                     </h3>
   
-                    <!-- <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                    </p> -->
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti nemo minima amet eius impedit ipsa magni soluta quam temporibus.
+                    </p>
   
                   </div>
   
@@ -354,29 +400,61 @@
                       <a href="#">Bangla Sahib</a>
                     </h3>
   
-                    <!-- <p class="card-text">
-                      Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                    </p> -->
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti nemo minima amet eius impedit ipsa magni soluta quam temporibus.
+                    </p>
   
                   </div>
   
                 </div>
                 <div class="popular-img">
                   <div class="two-img">
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/neemrana fort.webp" alt="San miguel, italy" loading="lazy">
-                    </figure>
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/rail museum.jpeg" alt="San miguel, italy" loading="lazy">
-                    </figure>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/neemrana fort.webp" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          neemrana fort
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/rail museum.jpeg" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          rail museum
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
                   </div>
                   <div class="two-img">
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/redfort.jpeg" alt="San miguel, italy" loading="lazy">
-                    </figure>
-                    <figure class="small-img">
-                      <img src="./assets/images/destinations/vrindavan.jpeg" alt="San miguel, italy" loading="lazy">
-                    </figure>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/redfort.jpeg" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          red fort
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="./assets/images/destinations/vrindavan.jpeg" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          vrindavan
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nam ex quis ea. Eos rerum repellendus et expedita, ducimus unde!</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -384,7 +462,7 @@
 
           </ul>
 
-          <button class="btn btn-primary"> Explore more</button>
+          <a href="destinations.html"><button class="btn btn-primary"> Explore more</button></a>
 
         </div>
       </section>
@@ -636,6 +714,22 @@
       <!-- 
         - #GALLERY
       -->
+      <!-- IGQVJVdFZAjb3g4eFpuRkR4SjNISTVvazhxMDVvNWNEUTd5bjJHM1FoOWpwMmxUdjBMQ2pBRTNBM212YUJ4R3N1NVdTVkhvenc1M1dad3U5WXZA1ZAGxCMlVPM1BhNmRJbThEMVMweEd1d0wteDhjcEtZAbQZDZD -->
+
+      <div class="insta-heading">
+        <ion-icon name="logo-instagram" role="img"></ion-icon> Tabigokoro Instagram feed <ion-icon name="logo-instagram" role="img"></ion-icon>
+      </div>
+      <div id="instafeed-container"></div>
+      <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+      <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          target: "instafeed-container",
+            resolution: 'low_resolution',
+          accessToken: 'IGQVJVdFZAjb3g4eFpuRkR4SjNISTVvazhxMDVvNWNEUTd5bjJHM1FoOWpwMmxUdjBMQ2pBRTNBM212YUJ4R3N1NVdTVkhvenc1M1dad3U5WXZA1ZAGxCMlVPM1BhNmRJbThEMVMweEd1d0wteDhjcEtZAbQZDZD'
+        });
+        userFeed.run();
+      </script>
 
       <section class="gallery" id="gallery">
         <div class="container">
@@ -686,6 +780,56 @@
       </section>
 
 
+      <section class="cta" style="padding: 25px 0;background-color: #EEF2E6;">
+        <div class="container" style="flex-direction: column">
+          <div style="margin: 50px 0;text-align: center;">
+            <h2 class="h2 section-title" style="color: #1C6758;">Things to do</h2>
+            <p class="section-text" style="color: #3D8361">
+              Find inspiration for your Indian vacation, from sightseeing in the city and cultural immersion in the countryside to top picks and suggested itineraries
+            </p>
+          </div>
+
+          <div class="interest-img">
+            <div class="center-text-div">
+              <img src="./assets/images/ebi1.png" alt="">
+              <div class="pic-text">games</div>
+            </div>
+            <div class="center-text-div">
+              <img src="./assets/images/ebi2.png" alt="">
+              <div class="pic-text">relaxation Spa &amp; Massage</div>
+            </div>
+            <div class="center-text-div">
+              <img src="./assets/images/ebi3.png" alt="">
+              <div class="pic-text">Adventure activities</div>
+            </div>
+            <!-- <div class="center-text-div">
+              <img src="./assets/images/ebi4.png" alt="">
+              <div class="pic-text">indian festivals and events</div>
+            </div> -->
+          </div>  
+
+          <div class="interest-img">
+            <div class="center-text-div">
+              <img src="./assets/images/ebi4.png" alt="">
+              <div class="pic-text">sightseeing</div>
+            </div>
+            <div class="center-text-div">
+              <img src="./assets/images/ebi3.png" alt="">
+              <div class="pic-text">local explore</div>
+            </div>
+            <div class="center-text-div">
+              <img src="./assets/images/ebi2.png" alt="">
+              <div class="pic-text">indian local food</div>
+            </div>
+            <!-- <div class="center-text-div">
+              <img src="./assets/images/ebi1.png" alt="">
+              <div class="pic-text">art &amp; design in india</div>
+            </div> -->
+          </div>  
+      
+
+        </div>
+       </section> 
 
 
 
@@ -750,6 +894,26 @@
 
         <div class="footer-contact">
 
+          <h4 class="contact-title">Helpful links</h4>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="open-outline"></ion-icon>
+              <a class="contact-link">First time visitor</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="open-outline"></ion-icon>
+              <a class="contact-link">Who we are</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
           <h4 class="contact-title">Contact Us</h4>
 
           <p class="contact-text">
@@ -807,15 +971,15 @@
         <ul class="footer-bottom-list">
 
           <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            <a href="privacy-policy.html" class="footer-bottom-link">Privacy Policy</a>
           </li>
 
           <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
+            <a href="terms-of-use.html" class="footer-bottom-link">Term of Use</a>
           </li>
 
           <li>
-            <a href="#" class="footer-bottom-link">FAQ</a>
+            <a href="disclaimer.html" class="footer-bottom-link">Disclaimer</a>
           </li>
 
         </ul>
