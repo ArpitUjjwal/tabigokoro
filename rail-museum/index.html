@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabigokoro - National Rail Museum </title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .bg {
+            background-image: url("../assets/images/rail-1.jpeg");
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="../index.html">
+          <img src="../assets/images/logo-tabigokoro.png" alt="Tourly logo" style="width: 180px;">
+        </a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn">
+          <ion-icon name="close-outline" style="color: #1C6758;"></ion-icon>
+        </label>
+        <li><a href="../index.html">HOME</a></li>
+        <li>
+          <a class="a-hover" href="../destinations/index.html" class="desktop-item">DESTINATION</a>
+          <input type="checkbox" id="showDestinations">
+          <label for="showDestinations" class="mobile-item">DESTINATION</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="../assets/images/taj-mahal-4.jpeg" alt="" style="border-radius: 15px;">
+              </div>
+              <div class="row">
+                <header>Destinations</header>
+                <ul class="mega-links">
+                  <li><a href="../akshardham/index.html">Akshardham</a></li>
+                  <li><a href="../bangla-sahib/index.html">Bangla Sahib</a></li>
+                  <li><a href="../damdama-lake/index.html">Damdama Lake</a></li>
+                  <li><a href="../golden-temp/index.html">Golden Temple</a></li>
+                  <li><a href="../vrindavan/index.html">Vrindavan</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../hauz-khas/index.html">Hauz Khas</a></li>
+                  <li><a href="../india-gate/index.html">India Gate</a></li>
+                  <li><a href="../lotus-temp/index.html">Lotus Temple</a></li>
+                  <li><a href="../neemrana/index.html">Neemrana</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../qutub-minar/index.html">Qutub Minar</a></li>
+                  <li><a href="../rail-museum/index.html">Rail Museum</a></li>
+                  <li><a href="../red-fort/index.html">Red Fort</a></li>
+                  <li><a href="../taj-mahal/index.html">Taj Mahal</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- dropdown code -->
+        <!-- <li>
+            <a href="#" class="desktop-item">Dropdown Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li> -->
+        <li>
+          <a class="a-hover" href="../todo/index.html" class="desktop-item">THINGS TO DO</a>
+          <input type="checkbox" id="showThings">
+          <label for="showThings" class="mobile-item">THINGS TO DO</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="../assets/images/cycling.jpg" alt="" style="border-radius: 15px;">
+              </div>
+              <div class="row">
+                <header>Things to do</header>
+                <ul class="mega-links">
+                  <li><a href="../adventure/index.html">Adventure</a></li>
+                  <li><a href="../Tourist-places/index.html">Tourist Places</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../Museums/index.html">Museums</a></li>
+                  <li><a href="../holistic-places/index.html">Holistic Places</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><button class="book-now">Book Now</button></li>
+      </ul>
+      <label for="menu-btn" class="btn" style="font-size: 2rem;cursor: pointer">
+        <ion-icon name="reorder-three-outline" style="color: #1C6758;"></ion-icon>
+      </label>
+    </div>
+  </nav>
+  <div id="socials" class="socials">
+    <div class="social-data">
+      <ul class="social-list">
+
+        <li>
+          <a href="" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <span style="font-size: 12px;color: #3D8361; font-weight: 500;">For Further Inquires : <br>+91 +91-89-17-89-17-89</span>
+
+    </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/tabigokoro.in" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/company/tabigokoro/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/tabigokoro.in/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+    </ul>
+  </div>
+  </div>
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="game-hero bg" id="home">
+                <div class="container">
+
+                    <h2 class="h1 hero-title">National Rail Museum</h2>
+                    <h2 class="h1 hero-title" style="font-size: calc(10px + 1.6vw)">represents the splendid more than 166 years of rich heritage of Indian Railway sprawling in over 11 acres of land</h2>
+
+                </div>
+            </section>
+
+
+            <!-- 
+        - #POPULAR
+      -->
+
+            <section class="cta" style="padding: 25px 0;background-color: #EEF2E6;">
+                <div class="container" style="flex-direction: row">
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            About the Museum
+
+
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+                            The National Rail Museum, New Delhi represents the splendid more than 166 years of rich heritage of Indian Railway sprawling in over 11 acres of land. Emulating the setting of a railway yard, the extensive outdoor gallery houses a variety of steam, diesel and electric locomotives along with fascinating collection of royal saloons, wagons, carriages, armored trains, rail cars and a turntable.                            </p>
+                    </div>
+
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/rail-1.jpeg" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="container" style="flex-direction: row">
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/rail-2.jpg" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            Proud Possessions
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+                            National Rail Museum primarily focuses on preserving rail heritage of the country. It boasts of having rarest and unique exhibits in its premise. The Patiala State Mono Rail Tram way (PSMT) is perhaps the oldest mono rail concept started in 1907 and NRM is in proud possession of the only steam mono rail locomotive and coach in working condition.                                    </p>
+                    </div>
+
+                </div>
+
+                <div class="container" style="flex-direction: row">
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            History
+
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+                            Indian Railways has been one of the most prominent means of transportation for the country for past two centuries. Indian Rail Network is one of the largest in the world. We all must have travelled by a train some time or the other.                                    </p>
+                    </div>
+
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/rail-3.jpg" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="popular" id="destination">
+                <div class="container">
+                  <h2 class="h2 section-title">More destinations for you</h2>
+        
+                  <ul class="popular-list">
+        
+                    <li>
+              <div class="popular-club">
+                <div class="popular-img">
+                  <div class="two-img">
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="../assets/images/destinations/golden temple.webp" alt="San miguel, italy"
+                          loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          golden temple
+                        </h3>
+                        <p>IS A GURDWARA LOCATED IN THE CITY OF AMRITSAR, PUNJAB, INDIA. IT IS THE PREEMINENT SPIRITUAL SITE OF SIKHISM</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="../assets/images/destinations/hauz khas village.jpeg" alt="San miguel, italy"
+                          loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          hauz khas village
+                        </h3>
+                        <p>IS A NEIGHBORHOOD IN SOUTH DELHI, ITS HEART BEING THE HISTORIC HAUZ KHAS COMPLEX</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="two-img">
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="../assets/images/destinations/india gate.webp" alt="San miguel, italy" loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          india gate
+                        </h3>
+                        <p>IS A WAR MEMORIAL LOCATED ASTRIDE THE RAJPATH ON THE EASTERN EDGE OF THE "CEREMONIAL AXIS" OF NEW DELHI, FORMERLY CALLED DUTY PATH</p>
+                      </div>
+                    </div>
+                    <div class="one-img">
+                      <figure class="small-img">
+                        <img src="../assets/images/destinations/lotus temple.jpeg" alt="San miguel, italy"
+                          loading="lazy">
+                      </figure>
+                      <div class="place-name">
+                        <h3 class="h3 card-title">
+                          lotus temple
+                        </h3>
+                        <p>LOCATED IN DELHI, INDIA, IS A BAHÁʼÍ HOUSE OF WORSHIP THAT WAS DEDICATED IN DECEMBER 1986. NOTABLE FOR ITS FLOWERLIKE SHAPE, IT HAS BECOME A PROMINENT ATTRACTION IN THE CITY.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popular-card">
+
+                  <figure class="card-img">
+                    <img src="../assets/images/qutubminar.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <p class="card-subtitle">
+                      <a href="#">Delhi</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Qutub Minar</a>
+                    </h3>
+
+                    <p class="card-text">
+                      IS A MINARET AND "VICTORY TOWER" THAT FORMS PART OF THE QUTB COMPLEX, WHICH LIES AT THE SITE OF DELHI’S OLDEST FORTIFIED CITY
+                    </p>
+
+                  </div>
+
+                </div>
+              </div>
+            </li>
+        
+                  </ul>
+        
+                </div>
+              </section>
+        </article>
+    </main>
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./../assets/images/logo-tabigokoro.png" alt="Tourly logo">
+                    </a>
+
+                    <p class="footer-text">
+                        About Tabigokoro.
+                    </p>
+
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4 class="contact-title">Helpful links</h4>
+
+                    <ul>
+
+                        <li class="contact-item">
+                            <ion-icon name="open-outline"></ion-icon>
+                            <a class="contact-link">First time visitor</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="open-outline"></ion-icon>
+                            <a class="contact-link">Who we are</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4 class="contact-title">Contact Us</h4>
+
+                    <p class="contact-text">
+                        Feel free to contact and reach us !!
+                    </p>
+
+                    <ul>
+
+                        <li class="contact-item">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                            <a href="tel:+918917891789" class="contact-link">+91-89-17-89-17-89</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <a href="mailto:info.tourly.com" class="contact-link">support@tabigokoro.in</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>Gurgaon, HR</address>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-form">
+
+                    <p class="form-text">
+                        Subscribe our newsletter for more update & news !!
+                    </p>
+
+                    <form action="" class="form-wrapper">
+                        <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+                        <button type="submit" class="btn btn-sub">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2022 <a href="">Tabigokoro</a>. All rights reserved
+                </p>
+
+                <ul class="footer-bottom-list">
+
+                    <li>
+                        <a href="privacy-policy.html" class="footer-bottom-link">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="terms-of-use.html" class="footer-bottom-link">Term of Use</a>
+                    </li>
+
+                    <li>
+                        <a href="disclaimer.html" class="footer-bottom-link">Disclaimer</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./../assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
