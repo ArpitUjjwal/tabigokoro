@@ -180,8 +180,12 @@ nav .wrapper{
   display: block;
 }
 .row .mega-links li a:hover{
-  color: #f2f2f2;
+  color: #3D8361;
+  background-color: #D6CDA4;
 }
+/* .row .mega-links li:hover{
+} */
+
 .wrapper .btn{
   color: #fff;
   font-size: 20px;
