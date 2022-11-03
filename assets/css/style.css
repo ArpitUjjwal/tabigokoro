@@ -223,10 +223,10 @@ nav .wrapper{
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #242526;
+    background: #D6CDA4;
   }
   ::-webkit-scrollbar-thumb {
-    background: #3A3B3C;
+    background: #3D8361;
   }
   #menu-btn:checked ~ .nav-links{
     left: 0%;
