@@ -866,6 +866,11 @@ body { background: var(--cream); }
   position: relative;
 }
 
+.one-img a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .one-img .place-name{
   position: absolute;
   bottom: 10px;
@@ -882,6 +887,8 @@ body { background: var(--cream); }
 .place-name p{
   display: none;
   font-size: 12px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .one-img:hover .place-name p{
@@ -1305,6 +1312,97 @@ address {
 
 .go-top:is(:hover, :focus) { opacity: 1; }
 
+
+.all-contact{
+  display: flex; 
+  flex-direction: row;
+  width: 100%;
+  padding: 0 100px; 
+  margin-bottom: 50px;
+  /* justify-content: center; */
+}
+
+.all-contact .detail {
+  width: 30%;
+  display: flex;
+}
+
+.all-contact .detail h2{
+  color: #3D8361;font-size: 25px;
+}
+
+.contact-card{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-body{
+  border: 2px solid #D6CDA4;
+  border-radius: 15px;
+  margin: 0 15px;
+  padding: 40px 20px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.card-body:hover img{
+  padding: 5px;
+  border: 3px solid #3D8361;
+}
+
+.card-body img{
+  width: 200px;
+  border-radius:100%; 
+  margin: 0 auto 10px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-text h2{
+  color: #1C6758;
+}
+
+.book-form{
+  display: flex;
+  justify-content: center;
+}
+
+.booking-data{
+  width: 50%;
+}
+
+.booking-data input{
+  background: #EEF2E6;
+  border: 2px solid #1C6758;
+  font-size: 14px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.booking-data button{
+  background: #1C6758;
+  border: 2px solid #EEF2E6;
+  font-size: 14px;
+  padding: 15px 20px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.booking-data button:hover{
+  background: #EEF2E6;
+  border: 2px solid #1C6758;
+  color: #1C6758;
+  font-weight: bold;
+}
 
 
 
@@ -1821,10 +1919,10 @@ address {
 }
 
 .map-box{
-  padding: 20px 50px;
+  /* padding: 20px 50px; */
   display: flex;
   width: 100%;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .map-box img{
@@ -1972,4 +2070,69 @@ align-items: center;
 
 #instafeed-container a img{
   width: 100%;
+}
+
+@media (max-width: 580px) {
+  .hero{
+    height: 100vh;
+  }
+
+  .popular-club{
+    flex-direction: column;
+  }
+
+  .popular-club .popular-card{
+    width: 100%;
+  }
+
+  .popular-club .popular-img{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .map{
+    flex-direction: column;
+  }
+
+  .map-box{
+    justify-content: center;
+  }
+
+  .interest-img{
+    flex-wrap: wrap;
+    margin-bottom: -5px;
+  }
+
+  .interest-img .center-text-div{
+    width: 44%;
+    margin: 10px;
+  }
+
+  .form-data{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .all-contact{
+    padding: 0 20px;
+  }
+
+  .all-contact .detail{
+    width: 45%;
+  }
+
+  .all-contact .detail h2{
+    font-size: 20px;
+  }
+
+  .card-body{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .booking-data{
+    width: 90%;
+  }
+
 }
