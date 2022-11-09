@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅ゴコロ - ダムダマ湖</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .bg {
+            background-image: url("../assets/images/damdama.jpeg");
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="../index.html">
+          <img src="../assets/images/logo-tabigokoro.png" alt="Tourly logo" style="width: 180px;">
+        </a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn">
+          <ion-icon name="close-outline" style="color: #1C6758;"></ion-icon>
+        </label>
+        <li><a href="../index.html">家</a></li>
+        <li>
+          <a class="a-hover" href="../destinations/index.html" class="desktop-item">行き先</a>
+          <input type="checkbox" id="showDestinations">
+          <label for="showDestinations" class="mobile-item">行き先</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="../assets/images/taj-mahal-4.jpeg" alt="" style="border-radius: 15px;">
+              </div>
+              <div class="row">
+                <header>目的地</header>
+                <ul class="mega-links">
+                  <li><a href="../akshardham/index.html">アクシャルダム</a></li>
+                  <li><a href="../bangla-sahib/index.html">バングラ サヒブ</a></li>
+                  <li><a href="../damdama-lake/index.html">ダムダマ湖</a></li>
+                  <li><a href="../golden-temp/index.html">ゴルドンお寺</a></li>
+                  <li><a href="../vrindavan/index.html">ヴリンダーバン</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../hauz-khas/index.html">ハウズ・カズ</a></li>
+                  <li><a href="../india-gate/index.html">インド門</a></li>
+                  <li><a href="../lotus-temp/index.html">ロツスお寺</a></li>
+                  <li><a href="../neemrana/index.html">ニムラナ</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../qutub-minar/index.html">クトゥブ・ミナール</a></li>
+                  <li><a href="../rail-museum/index.html">鉄道博物館</a></li>
+                  <li><a href="../red-fort/index.html">レッドフォート</a></li>
+                  <li><a href="../taj-mahal/index.html">タージマハル</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- dropdown code -->
+        <!-- <li>
+            <a href="#" class="desktop-item">Dropdown Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li> -->
+        <li>
+          <a class="a-hover" href="../todo/index.html" class="desktop-item">やる事</a>
+          <input type="checkbox" id="showThings">
+          <label for="showThings" class="mobile-item">やる事</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="../assets/images/cycling.jpg" alt="" style="border-radius: 15px;">
+              </div>
+              <div class="row">
+                <header>やる事</header>
+                <ul class="mega-links">
+                  <li><a href="../adventure/index.html">冒険</a></li>
+                  <li><a href="../Tourist-places/index.html">観光地</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                  <li><a href="../Museums/index.html">博物館</a></li>
+                  <li><a href="../holistic-places/index.html">全体的な場所</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header style="color: #EEF2E6;">.</header>
+                <ul class="mega-links">
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="../contact-us/index.html">お問い合わせ</a></li>
+        <li><a href="../book-now/index.html"><button class="book-now">今予約する</button></a></li>
+      </ul>
+      <label for="menu-btn" class="btn" style="font-size: 2rem;cursor: pointer">
+        <ion-icon name="reorder-three-outline" style="color: #1C6758;"></ion-icon>
+      </label>
+    </div>
+  </nav>
+  <div id="socials" class="socials">
+    <div class="social-data">
+      <ul class="social-list">
+
+        <li>
+          <a href="" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <span style="font-size: 12px;color: #3D8361; font-weight: 500;">さらなるお問い合わせ :  <br>+91-89-17-89-17-89</span>
+
+    </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/tabigokoro.in" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/company/tabigokoro/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/tabigokoro.in/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+    </ul>
+  </div>
+  </div>
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="game-hero bg" id="home">
+                <div class="container">
+
+                    <h2 class="h1 hero-title">ダムダマ湖</h2>
+                    <h2 class="h1 hero-title" style="font-size: calc(10px + 1.6vw)">インドのハリヤナ州のグルグラム地区のグルグラム市の近くのソーナ。ダムダマ湖はハリヤナ州の小さな湖です</h2>
+
+                </div>
+            </section>
+
+
+            <!-- 
+        - #POPULAR
+      -->
+
+            <section class="cta" style="padding: 25px 0;background-color: #EEF2E6;">
+                <div class="container" style="flex-direction: row">
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            地質と気候
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+                            丘陵地帯にあるため、この地域の地形は均一ではありません。ダムダマ湖はアメーバの形に広がっており、多くの枝があります。湖には穏健な気候があり、一年中いつでも訪問に適しています。湖を訪れるのに最適な時期は、10月から3月、夏の終わり、モンスーンです。気候は通常、夏の間は暑く、温度は最大45〜47°Cに達します。                        </p>
+                    </div>
+
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/damdama.jpeg" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="container" style="flex-direction: row">
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/damdama-2.png" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            Damdama 生物多様性公園
+
+
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+
+
+                            2021年2月、ハリヤナ州政府は5年間の開発計画を開始し、5エーカーの植物保育園を含むアラバリ山の斜面に420エーカーの土地を、北のダムダマとクルラの間にある5エーカーの植物保育園を含む、Gurujalの生物多様性公園として、センターと呼ばれるNGOであるGurujalの生物多様性公園として変換しました。生物学的発達と研究とKherla Panchayatのため。チームは、地域の植物相と動物相と、アラバリの丘の森林地帯からの野生の種子に関するデータを収集し、在来植物の多様な範囲の伝播のために保育園で成長しました。                        </p>
+                    </div>
+
+                </div>
+
+                <div class="container" style="flex-direction: row">
+                    <div
+                        style="margin-top: 50px;text-align: left;display: flex;flex-direction: column;align-items: left;width: 65%;">
+                        <h2 class="section-text" style="color: #3D8361; font-size: 35px;text-align: left">
+                            レジャー
+                        </h2>
+                        <p class="section-text" style="color: #3D8361;text-align: left">
+                            アラバリ山脈に囲まれたこのピクニックスポットの1つは、週末を静かで風光明媚な雰囲気の中で街から過ごすための人気のピクニックスポットの1つです。穏やかな場所では、列船、パドルボート、モーターボートでボートを楽しむことができます。ダムダマは、パラセーリング、カヤック、サイクリング、釣り、ロッククライミング、バレークロッシングなどの素晴らしいアドベンチャースポーツ施設で知られています。また、近くのアラバリの丘を自然散歩に行くこともできます。                    </div>
+
+                    <div class="big-img" style="height: 300px; width: 30%; overflow: hidden;border-radius: 15px;">
+                        <figure style="height: 100%">
+                            <img src="../assets/images/damdama-3.jpeg" alt=""
+                                style="width: 100%;height: 100%;object-fit: cover;">
+                        </figure>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="popular" id="destination">
+                <div class="container">
+                  <h2 class="h2 section-title">あなたのためのより多くの目的地</h2>
+        
+                  <ul class="popular-list">
+        
+                    <li>
+                      <div class="popular-club">
+                        <div class="popular-img">
+                          <div class="two-img">
+                            <div class="one-img">
+                              <a href="../golden-temp/index.html"><figure class="small-img">
+                                <img src="../assets/images/destinations/golden temple.webp" alt="San miguel, italy"
+                                  loading="lazy">
+                              </figure>
+                              <div class="place-name">
+                                <h3 class="h3 card-title">
+                                  黄金寺院
+                                </h3>
+                                <p>インドのパンジャブ州アムリトサル市にあるグルドワラです。それはシーク教の卓越した精神的な場所です</p>
+                              </div>
+                            </a>
+                            </div>
+                            <div class="one-img">
+                             <a href="../hauz-khas/index.html"><figure class="small-img">
+                                <img src="../assets/images/destinations/hauz khas village.jpeg" alt="San miguel, italy"
+                                  loading="lazy">
+                              </figure>
+                              <div class="place-name">
+                                <h3 class="h3 card-title">
+                                  ハウツ カズ ビレッジ
+                                </h3>
+                                <p>南デリーの近所で、その心は歴史的なハウズカスコンプレックスです</p>
+                              </div>
+                            </a> 
+                            </div>
+                          </div>
+                          <div class="two-img">
+                            <div class="one-img">
+                              <a href="../india-gate/index.html"><figure class="small-img">
+                                <img src="../assets/images/destinations/india gate.webp" alt="San miguel, italy" loading="lazy">
+                              </figure>
+                              <div class="place-name">
+                                <h3 class="h3 card-title">
+                                  インド門
+                                </h3>
+                                <p>ニューデリーの「儀式的な軸」の東端にあるラジパスにまたがる戦争記念碑で、以前は勤務経路と呼ばれています</p>
+                              </div>
+                            </a>
+                            </div>
+                            <div class="one-img">
+                              <a href="../lotus-temp/index.html"><figure class="small-img">
+                                <img src="../assets/images/destinations/lotus temple.jpeg" alt="San miguel, italy"
+                                  loading="lazy">
+                              </figure>
+                              <div class="place-name">
+                                <h3 class="h3 card-title">
+                                  蓮華寺
+                                </h3>
+                                <p>インドのデリーに位置し、1986年12月に捧げられたバハー崇拝の家です。花のような形で注目に値し、街で顕著な魅力になりました。</p>
+                              </div>
+                            </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="popular-card">
+        
+                          <figure class="card-img">
+                            <img src="../assets/images/qutubminar.jpg" alt="" loading="lazy">
+                          </figure>
+        
+                          <div class="card-content">
+        
+                            <div class="card-rating">
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </div>
+        
+                            <p class="card-subtitle">
+                              <a href="#">デリー</a>
+                            </p>
+        
+                            <h3 class="h3 card-title">
+                              <a href="#">クトゥブ・ミナール</a>
+                            </h3>
+        
+                            <p class="card-text">
+                              デリーで最も古い要塞化された都市の場所にあるQUTB複合施設の一部を形成するミナレットと「勝利タワー」です
+                            </p>
+        
+                          </div>
+        
+                        </div>
+                      </div>
+                    </li>
+                
+                          </ul>
+                
+                        </div>
+                      </section>
+                </article>
+            </main>
+        
+        
+            <!-- 
+            - #FOOTER
+          -->
+        
+            <footer class="footer">
+        
+                <div class="footer-top">
+                    <div class="container">
+        
+                        <div class="footer-brand">
+        
+                            <a href="#" class="logo">
+                                <img src="./../assets/images/logo-tabigokoro.png" alt="Tourly logo">
+                            </a>
+        
+                            <p class="footer-text">
+                              私たちと一緒にインドを発見してください
+                            </p>
+        
+                        </div>
+        
+                        <div class="footer-contact">
+        
+                            <h4 class="contact-title">便利なリンク</h4>
+        
+                            <ul>
+        
+                                <!-- <li class="contact-item">
+                                    <ion-icon name="open-outline"></ion-icon>
+                                    <a class="contact-link">初めての訪問者</a>
+                                </li> -->
+        
+                                <li class="contact-item">
+                                    <ion-icon name="open-outline"></ion-icon>
+                                    <a href="../who-we-are/index.html" class="contact-link">私たちは誰ですか</a>
+                                </li>
+        
+                            </ul>
+        
+                        </div>
+        
+                        <div class="footer-contact">
+        
+                            <h4 class="contact-title">お問い合わせ</h4>
+        
+                            <p class="contact-text">
+                                お気軽に連絡してください !!
+                            </p>
+        
+                            <ul>
+        
+                                <li class="contact-item">
+                                    <ion-icon name="call-outline"></ion-icon>
+        
+                                    <a href="tel:+918917891789" class="contact-link">+91-89-17-89-17-89</a>
+                                </li>
+        
+                                <li class="contact-item">
+                                    <ion-icon name="mail-outline"></ion-icon>
+        
+                                    <a href="mailto:info.tourly.com" class="contact-link">info@tabigokoro.in</a>
+                                </li>
+        
+                                <li class="contact-item">
+                                    <ion-icon name="location-outline"></ion-icon>
+        
+                                    <address>Gurgaon, HR</address>
+                                </li>
+        
+                            </ul>
+        
+                        </div>
+        
+                        <div class="footer-form">
+        
+                            <p class="form-text">
+                                詳細とニュースについては、ニュースレターを購読してください !!
+                            </p>
+        
+                            <form action="" class="form-wrapper">
+                                <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+        
+                                <button type="submit" class="btn btn-sub">申し込む</button>
+                            </form>
+        
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="footer-bottom">
+                    <div class="container">
+        
+                        <p class="copyright">
+                            &copy; 2022 <a href="">Tabigokoro</a>. 全著作権所有
+                        </p>
+        
+                        <ul class="footer-bottom-list">
+        
+                            <li>
+                                <a href="privacy-policy.html" class="footer-bottom-link">プライバシーポリシー</a>
+                            </li>
+        
+                            <li>
+                                <a href="terms-of-use.html" class="footer-bottom-link">使用期間</a>
+                            </li>
+        
+                            <li>
+                                <a href="disclaimer.html" class="footer-bottom-link">免責事項</a>
+                            </li>
+        
+                        </ul>
+        
+                    </div>
+                </div>
+        
+            </footer>
+        
+        
+        
+        
+        
+            <!-- 
+            - #GO TO TOP
+          -->
+        
+            <a href="#top" class="go-top" data-go-top>
+                <ion-icon name="chevron-up-outline"></ion-icon>
+            </a>
+        
+        
+        
+        
+        
+            <!-- 
+            - custom js link
+          -->
+            <script src="./../assets/js/script.js"></script>
+        
+            <!-- 
+            - ionicon link
+          -->
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        </body>
+        
+        </html>
