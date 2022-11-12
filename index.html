@@ -8,11 +8,26 @@
   <title>旅ゴコロ - ホム</title>
   <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@200;400;500;600;700&display=swap"
     rel="stylesheet">
+    <style>
+      .owl-prev, .owl-next {
+        position: absolute;
+        top: 50px;
+      }
+      .owl-prev {
+          left: -20px;
+        }
+
+      .owl-next {
+        right: -20px;
+      }
+    </style>
 </head>
 
 <body id="top">
@@ -545,6 +560,46 @@
         </div>
       </section>
 
+      <section class="slides-sec">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="./assets/images/banglasahib.jpg" alt="">
+            </div>
+          </div>
+      </div>
+      </section>
+
 
       <!-- 
         - #PACKAGE
@@ -1003,6 +1058,41 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    // autoplay: true,
+    // autoplayTimeout: 1500,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+// $('.carousel-main').owlCarousel({
+// 	items: 3,
+// 	loop: true,
+// 	autoplay: true,
+// 	autoplayTimeout: 1500,
+// 	margin: 10,
+// 	nav: true,
+// 	dots: false,
+// 	navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+// })
+  </script>
 
   <!-- 
     - ionicon link

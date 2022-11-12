@@ -2121,6 +2121,96 @@ align-items: center;
   width: 100%;
 }
 
+.why-us{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.why-us .why-card{
+  width: 90%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.why-card .detail{
+  background: #1C6758;
+  width: 50%;
+  padding: 20px;
+}
+
+.detail .heading{
+  color: #D6CDA4;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.details .point{
+  display: flex;
+}
+.point ion-icon{
+  display: inline-block;
+  padding-right: 5px;
+  color: #D6CDA4;
+}
+
+.point{
+  color: #EEF2E6;
+  margin-bottom: 10px;
+}
+
+.why-card .tour-package{
+  width: 50%;
+  border-radius: 0 15px 15px 0;
+  border: 3px solid #1C6758;
+  padding: 20px;
+}
+
+.tour-package .name{
+  color: #1C6758;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tour-package .details{
+  color: rgb(163, 3, 3);
+  font-size: 1rem;
+}
+
+.tour-package .accoms{
+  margin-top: 20px;
+}
+
+.tour-package .accoms .heading{
+  color: #3D8361;
+  font-size: 1.5rem;
+}
+
+.tour-package .accoms .icons{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.icons .single{
+  margin: 10px;
+  font-size: 3rem;
+  border: 3px solid #3D8361;
+  border-radius: 20px;
+  color: #1C6758;
+  background-color: #D6CDA4;
+  padding: 10px;
+}
+
+.slides-sec{
+  margin: 100px 200px
+}
+
 @media (max-width: 580px) {
   .hero{
     height: 100vh;
