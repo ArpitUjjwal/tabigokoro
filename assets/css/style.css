@@ -2203,7 +2203,7 @@ align-items: center;
 }
 
 .tour-package .details{
-  color: rgb(163, 3, 3);
+  color: #1C6758;
   font-size: 1rem;
 }
 
@@ -2222,6 +2222,13 @@ align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.tour-package .accoms .terms{
+  display: flex;
+  justify-content: flex-end;
+  color: #3D8361;
+  font-size: 0.75rem;
 }
 
 .icons .single{
