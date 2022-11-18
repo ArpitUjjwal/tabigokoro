@@ -727,7 +727,7 @@ body { background: var(--cream); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/hero.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -741,7 +741,7 @@ body { background: var(--cream); }
 }
 
 .dest-hero {
-  background-image: url("../images/banglainside.jpg");
+  background-image: url("../images/banglainside.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -755,7 +755,7 @@ body { background: var(--cream); }
 }
 
 .game-hero {
-  background-image: url("../images/games.jpg");
+  background-image: url("../images-min/games.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
