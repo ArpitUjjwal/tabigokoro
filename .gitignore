@@ -22,3 +22,5 @@ yarn-error.log*
 
 #api
 insta-api.js
+contact-form.js
+sub-form.js

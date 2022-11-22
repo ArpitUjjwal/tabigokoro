@@ -26,6 +26,31 @@
   /* font-family: 'Poppins', sans-serif; */
 }
 
+
+#whatsapp-contact{
+  background-color: #1C6758;
+  position: fixed;
+  z-index: 1111;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  color: #EEF2E6;
+  justify-content: space-evenly;
+}
+
+#whatsapp-contact .text{
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+#whatsapp-contact img{
+  width: 50px;
+}
+
 .socials{
   position: absolute;
   width: 100%;
@@ -2061,6 +2086,12 @@ address {
   margin-bottom: 10px;
 }
 
+#form-success{
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #D6CDA4;
+}
+
 .interest-img{
   display: flex;
   justify-content: space-around;
@@ -2385,6 +2416,17 @@ align-items: center;
 }
 
 @media (max-width: 580px) {
+
+  #whatsapp-contact .text{
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+
+  #whatsapp-contact img{
+    width: 30px;
+  }
+
+
   .slides-sec{
     margin: 100px 50px
   }
@@ -2480,5 +2522,33 @@ align-items: center;
   .single-int .img{
     width: 80%;
     margin: auto;
+  }
+
+  .insta-heading{
+    font-size: 25px;
+    text-align: center;
+    }
+    
+  .insta-heading ion-icon{
+    padding: 0 20px;
+  }
+
+  #instafeed-container {
+    margin:  0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #instafeed-container a{
+    width: 90vw;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid #1C6758;
+    overflow: hidden;
+  }
+  
+  #instafeed-container a img{
+    width: 100%;
   }
 }

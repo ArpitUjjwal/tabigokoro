@@ -24,6 +24,15 @@
 
 <body id="top">
 
+  <a href="https://wa.me/918917891789" target="_blank">
+  <div id="whatsapp-contact">
+    <div class="text">
+      WhatsAppを介して私たちとつながります
+    </div>
+    <img src="../assets/images-min/WhatsApp_icon.png" alt="">
+  </div>
+  </a>
+
   <!-- 
     - #HEADER
   -->
@@ -637,10 +646,11 @@
             詳細とニュースについては、ニュースレターを購読してください !!
           </p>
 
-          <form action="" class="form-wrapper">
-            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+          <form name="sent-to-sub-form" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="メールアドレスを入力" required>
 
             <button type="submit" class="btn btn-sub">申し込む</button>
+            <span id="sub-success"></span>
           </form>
 
         </div>
@@ -695,6 +705,8 @@
   <!-- 
     - custom js link
   -->
+  <script src="../sub-form.js"></script>
+  <script src="../contact-form.js"></script>
   <script src="../assets/js/script.js"></script>
   <script src="../assets/js/jquery.min.js"></script>
   <script src="..assets/js/owl.carousel.min.js"></script>
